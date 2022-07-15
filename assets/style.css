@@ -1,8 +1,22 @@
+
 p {
   font-family: 'VT323', monospace;
+  font-size: large;
 }
 
 h1 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h4 {
   font-family: 'Amatic SC', cursive;
 }
 
@@ -23,8 +37,30 @@ a {
 }
 
 .hero-img {
-  background-image: url(https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-image: url(https://images.unsplash.com/photo-1612512836264-5e58fab88bf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
   min-height: 40vh;
   background-size: cover;
   background-position: center;
 }
+
+.text-down {
+  max-height: 10em;
+}
+
+
+.text-shadow {
+  text-shadow: 1px 1px 5px black;
+}
+
+@media (max-width: 768px){
+  .glass-card{
+    opacity: .5;
+  }
+}
+
+@media (min-width: 768px){
+  .spill {
+    transform: translateY(20%);
+  }  
+}
+
