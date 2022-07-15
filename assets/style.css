@@ -1,7 +1,7 @@
 
 p {
   font-family: 'VT323', monospace;
-  font-size: large;
+  font-size: 24px;
 }
 
 h1 {
@@ -55,6 +55,9 @@ a {
 @media (max-width: 768px){
   .glass-card{
     opacity: .5;
+  }
+  .reviews {
+    margin-top: 10px;
   }
 }
 
